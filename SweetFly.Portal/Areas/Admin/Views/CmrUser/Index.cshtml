@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "人大账号管理";
+}
+
+
+<div id="maingrid" style="MARGIN-RIGHT: auto; MARGIN-LEFT: auto; TEXT-ALIGN: center;">
+</div>
+
+<script type="text/javascript">
+    var subject = {
+        beginEdit: function (rowid) {
+            maingrid.beginEdit(rowid);
+        },
+        cancelEdit: function (rowid) {
+            maingrid.cancelEdit(rowid);
+        },
+        endEdit: function (rowid) {
+            maingrid.endEdit(rowid);
+            var rowData = maingrid.getRow(rowid);
+            var model = JSON.stringify(rowData);
+
+            //修改数据
+            $.ajax({
+                @*url: '@Url.Action("Update")',*@
+                method: 'post',
+                data: model,
+                contentType: 'application/json',
+                success: function (_data) {
+                    if (common.checkResponse(_data)) {
+                    }
+                }
+            });
+        },
+        deleteRow: function (rowid) {
+
+            $.ligerDialog.confirm('确定删除?', function (yes) {
+                if (false == yes) {
+                    return false;
+                }
+
+                var rowData = maingrid.getRow(rowid);
+                var model = JSON.stringify(rowData);
+
+                //删除数据
+                $.ajax({
+                    url: '@Url.Action("Remove") ',
+                    method: 'post',
+                    data: model,
+                    contentType: 'application/json',
+                    success: function (_data) {
+                        if (common.checkResponse(_data)) {
+                            maingrid.deleteRow(rowid);
+                        }
+                    }
+                });
+            });
+        },
+        toolbarInsert: function (rowItem) {
+            $.ligerDialog.open({
+                @*url: '@Url.Action("Insert")',*@
+                title: '增加新模块',
+                height: 300,
+                width: null,
+                buttons: [
+                   {
+                       text: '确定',
+                       onclick: function (item, dialog) {
+                           dialog.frame.submit(dialog);
+                       },
+                       cls: 'l-dialog-btn-highlight'
+                   },
+                   {
+                       text: '取消',
+                       onclick: function (item, dialog) {
+                           dialog.close();
+                       }
+                   }
+                ],
+                isResize: true,
+                onClosed: function () {
+                    //刷新表格
+                    maingrid.reload();
+                }
+            });
+        }
+    };
+
+    //初始化表格
+    var maingrid = $("#maingrid").ligerGrid({
+        toolbar: {
+            items: [
+                //{ text: '增加', click: subject.toolbarInsert, icon: 'add' },
+                //{ line: true },
+                { text: '删除', click: subject.itemclick, icon: 'delete' }
+            ]
+        },
+        columns: [
+            { display: 'Id', name: 'Id', type: 'int', width: 50 },
+            { display: '用户名', name: 'UserName', editor: { type: 'text' } },
+            { display: '密码', name: 'Password', editor: { type: 'text' } },
+            { display: '使用次数', name: 'UseTimes', align: 'left', editor: { type: 'int' }, width: 50 },
+            { display: '最后登陆人大时间', name: 'LastUseTime', type: 'date', format: 'yyyy-MM-dd', width: 100 },
+            { display: '创建时间', name: 'CreateTime', type: 'date', format: 'yyyy-MM-dd', width: 100 },
+            {
+                display: '操作', isSort: false, width: 80, render: function (rowdata, rowindex, value) {
+                    var h = "";
+                    if (!rowdata._editing) {
+                        //h += "<a href='javascript:subject.beginEdit(" + rowindex + ")'>修改</a> ";
+                        h += "<a href='javascript:subject.deleteRow(" + rowindex + ")'>删除</a> ";
+                    }
+                    else {
+                        //h += "<a href='javascript:subject.endEdit(" + rowindex + ")'>提交</a> ";
+                        h += "<a href='javascript:subject.cancelEdit(" + rowindex + ")'>取消</a> ";
+                    }
+                    return h;
+                }
+            }
+        ],
+        url: '@Url.Action("PageList") ',
+        pageSizeOptions: [20, 50],
+        width: '97%',
+        height: '97%',
+        enabledEdit: false,
+        clickToEdit: false
+        //isScroll: false,
+    });
+
+</script>
+

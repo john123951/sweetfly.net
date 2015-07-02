@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "数据库管理";
+}
+
+<div style="margin: 10px;">
+    <div style="float: left;">
+        <form action="" method="post" id="mainForm">
+            <h3>请输入Sql语句：</h3>
+            <div>
+                <span>请选择数据库</span>
+                <select name="dbName">
+                    <option value="1">Cmr.com.cn</option>
+                </select>
+            </div>
+            <textarea cols="60" rows="20" name="sql"></textarea>
+            <br />
+            <input type="button" id="submit" value="执行" />
+        </form>
+    </div>
+
+    <div id="resultDiv" style="float: left">
+        <h5>执行结果：</h5>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var exec = {
+        executeNonQuery: function () {
+            var form = $('#mainForm');
+            var action = form.attr('action');
+            var data = form.serialize();
+
+            $.ajax({
+                url: action,
+                method: "Post",
+                data: data,
+                success: function (_data) {
+                    var row = $('<div>');
+                    $('#resultDiv').append(row);
+
+                    var result = $('<span>');
+                    row.append(result);
+                    result.text("【" + _data + "】：");
+
+                    var sqlStr = $('<span>');
+                    row.append(sqlStr);
+                    sqlStr.text($('[name=sql]').val());
+
+                }
+            });
+
+        }
+    };
+
+    $(function () {
+        $('#submit').click(exec.executeNonQuery);
+
+    });
+</script>

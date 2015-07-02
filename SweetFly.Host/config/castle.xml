@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<castle>
+  <installers>
+    <install assembly="SweetFly.Host"/>
+  </installers>
+
+  <!--<include uri="file://castle/facilities.config" />-->
+  <!--<include uri="file://castle/components.config" />-->
+</castle>

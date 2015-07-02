@@ -1,0 +1,30 @@
+﻿<script type="text/javascript" src="@Url.Content("~/Scripts/jquery-2.1.0.min.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/Scripts/sweet/common.js")"></script>
+
+<form id="insertForm" action="@Url.Action("Insert")" method="post">
+
+    <p>
+        <label>科目Id：</label><input type="text" name="Subject_Id" value="" /></p>
+
+    <p>
+        <label>模块名称：</label><input type="text" name="Name" value="" /></p>
+</form>
+<script type="text/javascript">
+
+    function submit(dialog) {
+        var form = $('#insertForm');
+        var data = form.serialize();
+
+        $.ajax({
+            url: form.attr('action'),
+            method: form.attr('method'),
+            data: data,
+            success: function (_data) {
+                if (common.checkResponse(_data)) {
+                    dialog.close();
+                }
+            }
+        });
+
+    }
+</script>

@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Scripts/ligerUI/skins/Aqua/css/ligerui-all.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Scripts/ligerUI/skins/Gray2014/css/all.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Scripts/ligerUI/skins/ligerui-icons.css")" rel="stylesheet" />
+
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-2.1.0.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/json2.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/sweet/common.js")"></script>
+
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/core/base.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerGrid.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerTextBox.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerToolBar.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerResizable.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerDrag.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerDialog.js")"></script>
+
+    @*   
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerCheckBox.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerComboBox.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerDateEditor.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerSpinner.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ligerUI/js/plugins/ligerTab.js")"></script>*@
+
+    @RenderSection("Header", false)
+</head>
+<body>
+    @RenderBody()
+</body>

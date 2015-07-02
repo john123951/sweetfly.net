@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<CmrConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Subjects>
+    <Subject Id="1" Enabled="true">
+      <SubjectModules>
+        <SubjectModule Id="22" Handler="SweetFly.ConsoleTest.CmrModel.CmrConfig">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://11111.com</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+  </Subjects>
+</CmrConfig>

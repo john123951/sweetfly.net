@@ -1,0 +1,3 @@
+[submodule "sweetfly.model"]
+	path = sweetfly.model
+	url = https://john123951@bitbucket.org/sweetfly/sweetfly.model.git

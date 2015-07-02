@@ -1,0 +1,384 @@
+﻿using SweetFly.BusinessLogic.contract;
+using SweetFly.BusinessLogic.contract.Cmr.cn;
+using SweetFly.ConsoleTest.CmrModel;
+using SweetFly.Job;
+using SweetFly.Job.Handler;
+using SweetFly.Job.JobItems;
+using SweetFly.Job.Models.Cmr;
+using SweetFly.Model.ApiControllers.Cmr.Requests;
+using SweetFly.Model.Entities;
+using SweetFly.Model.Entities.Cmr.cn;
+using SweetFly.Model.Entities.SweetFly;
+using SweetFly.Model.Search;
+using SweetFly.Repository;
+using SweetFly.Repository.contract;
+using SweetFly.Repository.NHibernate;
+using SweetFly.Utility;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Transactions;
+using System.Web.Script.Serialization;
+using System.Xml.Serialization;
+using Subject = SweetFly.Job.Models.Cmr.Subject;
+using SubjectModule = SweetFly.Job.Models.Cmr.SubjectModule;
+<<<<<<< HEAD
+=======
+using System.IO;
+using SweetFly.BusinessLogic.contract.Cmr.cn;
+using SweetFly.Model.Search;
+using System.Web.Script.Serialization;
+using SweetFly.Model.ApiControllers.Cmr.Requests;
+using SweetFly.Utility.Security;
+>>>>>>> a128cdaada59a5e02775df8e5254f7dd55f96f36
+
+namespace SweetFly.ConsoleTest
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+<<<<<<< HEAD
+            #region JavaScriptSerializer
+=======
+            var requset = new UploadInfoRequest()
+            {
+                AuthorizationString = "Basic am9objEyMzk1Mjpqb2huMTIz"
+            };
+
+            var rsa = new RSA();
+            var json = JsonUtility.Serialize(requset);
+            string pubKey = File.ReadAllText(@"F:\CatCodes\Api\sweetfly.net\SweetFly.ConsoleTest\config\publicKey.xml");
+            string e = rsa.Encrypt(json, pubKey);
+            Console.WriteLine(e);
+
+>>>>>>> a128cdaada59a5e02775df8e5254f7dd55f96f36
+
+            //var model = new FindListRequest()
+            //{
+            //     Ids= new List<int>() { 2, 3, 5 }
+            //};
+            //var jss = new JavaScriptSerializer();
+            //Console.WriteLine(jss.Serialize(model));
+<<<<<<< HEAD
+            //Console.ReadKey();
+
+            #endregion JavaScriptSerializer
+=======
+            Console.ReadKey();
+>>>>>>> a128cdaada59a5e02775df8e5254f7dd55f96f36
+
+            NSessionFactoryManager.GetInstance(NSessionFactoryManager.SessionFactory.Cmrcn).Register(@"config\hibernate\cmrcn.cfg.xml", typeof(ExamItem).Assembly);
+            //生成xml文件
+            //  HbmSerializer.Default.Serialize(typeof(LoginInfoDetail).Assembly, "Domain.hbm.xml");
+
+            WindsorUtility.Instance.Register();
+
+            LogUtility.Register(@"config\log4net.xml");
+
+            #region 初始化
+
+            //var repository = new LoginInfoRepository();
+            //var loginInfoRepository = new LoginInfoRepository();
+            //var model = new LoginInfo()
+            //    {
+            //        CreateTime = DateTime.Now,
+            //        DelFlag = false,
+            //        LastLoginTime = DateTime.Now,
+            //        ModifyTime = DateTime.Now,
+            //        UserName = "Sweet_Test",
+            //        Password = "Password"
+            //    };
+            //var inserted = loginInfoRepository.Insert(model);
+            //if (inserted != null)
+            //{
+            //    Console.WriteLine("Success:" + inserted.Id);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Failed");
+            //}
+
+            #endregion 初始化
+
+            #region 测试GetCurrentSession
+
+            //var session1 = NHibernateUtility.GetInstance().OpenSession();
+
+            //var session2 = NHibernateUtility.GetInstance().OpenSession();
+
+            //ThreadPool.QueueUserWorkItem((status) =>
+            //{
+            //    var session3 = NHibernateUtility.GetInstance().OpenSession();
+
+            //    var session4 = NHibernateUtility.GetInstance().OpenSession();
+            //    });
+
+            #endregion 测试GetCurrentSession
+
+            #region 测试效率
+
+            //var rnd = new Random();
+            //var repository = new LoginInfoRepository();
+
+            //var list = new List<LoginInfo>();
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    var model = new LoginInfo()
+            //        {
+            //            CreateTime = DateTime.Now,
+            //            DelFlag = false,
+            //            LastLoginTime = DateTime.Now,
+            //            ModifyTime = DateTime.Now,
+            //            UserName = i.ToString(),
+            //            Password = i.ToString()
+            //        };
+            //    list.Add(model);
+            //}
+
+            ////======================================
+            //var watch = new Stopwatch();
+            //watch.Start();
+            ////第一种方法 21000
+            //foreach (var m in list)
+            //{
+            //    repository.Insert(m);
+            //}
+
+            //第二种方式  23000
+            //repository.Insert(list);
+
+            //第三种方式
+            //repository.InsertTransaction(list);
+
+            //第四种方式 不可用
+            //using (var trans = repository.Transaction)
+            //{
+            //    trans.
+            //    foreach (var m in list)
+            //    {
+            //        repository.Insert(m);
+            //    }
+            //    trans.Commit();
+            //}
+            // var linq = repository.LoadEntities(x => x.Id > 1);
+            //  Console.WriteLine(linq.Count());
+
+            #region TransactionScope
+
+            //using (TransactionScope tsCope = new TransactionScope())
+            //{
+            //    repository.Insert(new LoginInfo()
+            //        {
+            //            UserName = "TestTsCope",
+            //            Password = "Test02",
+            //            CreateTime = DateTime.Now,
+            //            DelFlag = false,
+            //            LastLoginTime = DateTime.Now,
+            //            ModifyTime = DateTime.Now
+            //        });
+
+            //    tsCope.Complete();
+            //}
+
+            #endregion TransactionScope
+
+            // watch.Stop();
+
+            //  Console.WriteLine("花费时间：" + watch.ElapsedMilliseconds);
+
+            #endregion 测试效率
+
+            #region 修改数据库
+
+            //      var examItemRepository = WindsorUtility.Instance.Resolve<ICmrcnRepository<ExamItem>>();
+
+            //var model = new ExamItem()
+            //{
+            //    Id = 3,
+            //    Answer = "answer",
+            //    CreateTime = DateTime.Now,
+            //    DelFlag = false,
+            //    Module_Id = 1,
+            //    OriginalHtml = "html",
+            //    Title = "title"
+            //};
+
+            //examItemRepository.Insert(model);
+            //var count =examItemRepository.LoadEntities(x => x.Id > 0).Count();
+            //Console.WriteLine(count);
+
+            // var productService = WindsorUtility.Instance.Resolve<IProductService>();
+
+            #endregion 修改数据库
+
+            #region 修改数据
+
+            //var repository = WindsorUtility.Instance.Resolve<ICmrcnRepository<ItemType>>();
+            //var entity = repository.LoadEntities(x => x.Id == 4).FirstOrDefault();
+            //entity.Text = "论述题";
+            //repository.Update(entity);
+
+            //var list = repository.LoadEntities(x => x.Id > 0).ToList();
+            //foreach (var l in list)
+            //{
+            //    Console.WriteLine(l.Text);
+            //}
+
+            #endregion 修改数据
+
+            #region 测试反射效率
+
+            //Stopwatch watch = new Stopwatch();
+            //watch.Start();
+            //string strHandler = @"SweetFly.Job.Handler.MaoDengSanHandler,SweetFly.Job";
+            //for (var i = 0; i < 1000; ++i)
+            //{
+            //    int a = Convert.ToInt32("222");
+            //    var type = Type.GetType(strHandler);                      //可以忽略 1000次  6ms
+            //    //var handler = Activator.CreateInstance(type);           //创建对象比较耗时 1000次  110ms
+            //}
+            //watch.Stop();
+            //Console.WriteLine("Watch: " + watch.ElapsedMilliseconds);
+
+            #endregion 测试反射效率
+
+            //QuartzUtility.GetInstance().Start(@"config\Cmr.Crawler.xml");
+
+            #region 测试Handler，生成Xml文件
+
+            //var handler = new MaoDengSanHandler();
+
+<<<<<<< HEAD
+            //var config = new CmrConfig();
+            //config.Subjects = new List<Subject>();
+
+            //config.Subjects.Add(new Subject()
+            //    {
+            //        Id = 1,
+            //        Enabled = true,
+            //        LoginInfo = new Job.Models.Cmr.LoginInfo()
+            //        {
+            //            Authorization = "2222"
+            //        }
+            //    });
+            //config.Subjects.First().SubjectModules = new List<SubjectModule>()
+            //    {
+            //         new SubjectModule()
+            //             {
+            //                  Handler = typeof(CmrConfig).ToString(), Id = 22, HtmlDataSource = new HtmlDataSource()
+            //                      {
+            //                           Encoding = "GB2312", Uri =  "http://11111.com"
+            //                      }
+            //             }
+            //    };
+
+            //string fileName ="cmrConfig.xml";
+
+            //var xs = new XmlSerializer(config.GetType());
+            //using (var fsWriter = File.OpenWrite(fileName))
+            //{
+            //    xs.Serialize(fsWriter, config);
+            //}
+            //Process.Start(fileName);
+
+            #endregion 测试Handler，生成Xml文件
+=======
+            var config = new CmrConfig();
+            config.Subjects = new List<Subject>();
+
+            config.Subjects.Add(new Subject()
+                {
+                    Id = 1,
+                    Enabled = true,
+                    LoginInfo = new Job.Models.Cmr.LoginInfo()
+                    {
+                        Authorization = "2222"
+                    }
+                });
+            config.Subjects.First().SubjectModules = new List<SubjectModule>()
+                {
+                     new SubjectModule()
+                         {
+                              Handler = typeof(CmrConfig).ToString(), Id = 22, HtmlDataSource = new HtmlDataSource()
+                                  {
+                                       Encoding = "GB2312", Uri =  "http://11111.com"
+                                  }
+                         }
+                };
+
+            string fileName = "cmrConfig.xml";
+
+            var xs = new XmlSerializer(config.GetType());
+            using (var fsWriter = File.OpenWrite(fileName))
+            {
+                xs.Serialize(fsWriter, config);
+            }
+            Process.Start(fileName);
+
+            #endregion
+>>>>>>> a128cdaada59a5e02775df8e5254f7dd55f96f36
+
+            #region 测试配置文件
+
+            //CmrConfig config = null;
+            //var xs = new XmlSerializer(typeof(CmrConfig));
+            //using (var fsRead = File.OpenRead("cmrConfig.xml"))
+            //{
+            //    config = xs.Deserialize(fsRead) as CmrConfig;
+            //}
+            //if (config == null)
+            //{
+            //    Console.WriteLine("Null");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("OK");
+            //}
+
+            #endregion 测试配置文件
+
+            #region 编写新的网页处理类
+
+            //string strResponse = File.ReadAllText("Response2.html",Encoding.GetEncoding("GB2312"));
+            //var handler = new OldHandler();
+
+            //var list = handler.Process(strResponse, 0);
+
+            #endregion 编写新的网页处理类
+
+            #region 测试Lazy
+
+            //var response = WindsorUtility.Instance.Resolve<IExamItemService>();
+
+            //response.Count(new ExamItemSearch() { ModuleId = 3 });
+            ////可以延迟执行
+
+            #endregion 测试Lazy
+
+            #region 测试执行 SQL
+
+            var repository = new CmrcnRepository<ItemType>();
+
+            string sql = @"create table test (
+  Id int null,
+  Name varchar(32) null
+)";
+
+            //var result = repository.ExecuteNonQuery("insert into ItemType(Text,Subject_Id) values (\"Test\",2)");
+            var result = repository.ExecuteNonQuery(sql);
+
+            Console.WriteLine(result);
+
+            #endregion 测试执行 SQL
+
+            Console.WriteLine("OK");
+            Console.ReadKey();
+        }
+    }
+}

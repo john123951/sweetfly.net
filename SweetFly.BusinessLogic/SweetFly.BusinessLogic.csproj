@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AD28217-7C3F-4CE9-ADEC-3AAD8AFA2319}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SweetFly.BusinessLogic</RootNamespace>
+    <AssemblyName>SweetFly.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contract\Cmr.cn\ICmrUserService.cs" />
+    <Compile Include="Implementations\BaseSoftDeleteable.cs" />
+    <Compile Include="Implementations\Cmr.cn\CmrUserService.cs" />
+    <Compile Include="Implementations\SweetFly\AuthInfoService.cs" />
+    <Compile Include="Implementations\Cmr.cn\ExamItemService.cs" />
+    <Compile Include="Implementations\Cmr.cn\ItemTypeService.cs" />
+    <Compile Include="Implementations\Cmr.cn\SubjectModuleService.cs" />
+    <Compile Include="Implementations\Cmr.cn\SubjectService.cs" />
+    <Compile Include="contract\Cmr.cn\IExamItemService.cs" />
+    <Compile Include="contract\Cmr.cn\IItemTypeService.cs" />
+    <Compile Include="contract\Cmr.cn\ISubjectModuleService.cs" />
+    <Compile Include="contract\Cmr.cn\ISubjectService.cs" />
+    <Compile Include="contract\SweetFly\ILoginInfoDetailService.cs" />
+    <Compile Include="contract\SweetFly\ILoginInfoService.cs" />
+    <Compile Include="contract\SweetFly\IProductService.cs" />
+    <Compile Include="contract\SweetFly\Security\IAuthInfoService.cs" />
+    <Compile Include="contract\SweetFly\Security\IRoleInfoService.cs" />
+    <Compile Include="Implementations\SweetFly\LoginInfoDetailService.cs" />
+    <Compile Include="Implementations\SweetFly\ProductService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Implementations\SweetFly\LoginInfoService.cs" />
+    <Compile Include="Implementations\SweetFly\RoleInfoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SweetFly.Model\SweetFly.Model.csproj">
+      <Project>{9d61ea99-0363-4d7a-9c02-e369c91ba18c}</Project>
+      <Name>SweetFly.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SweetFly.Repository\SweetFly.Repository.csproj">
+      <Project>{c466faef-5164-4295-9022-e2241f026e09}</Project>
+      <Name>SweetFly.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SweetFly.Utility\SweetFly.Utility.csproj">
+      <Project>{4c460f43-7d8e-4c76-be64-90617e320ea2}</Project>
+      <Name>SweetFly.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

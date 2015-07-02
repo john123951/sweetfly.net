@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SweetFly.Model.Entities.Security.AuthInfo, SweetFly.Model" table="AuthInfo">
+    <id name="Id" type="Int32" unsaved-value="0">
+      <column name="Id" sql-type="bigint" not-null="true" unique="true"/>
+      <generator class="native" />
+    </id>
+    <many-to-one name="LoginInfo" class="SweetFly.Model.Entities.LoginInfo" column="LoginInfo_Id" not-found="ignore"  />
+    <many-to-one name="Product" class="SweetFly.Model.Entities.Product" column="Pro_Id" not-found="ignore" />
+  </class>
+</hibernate-mapping>

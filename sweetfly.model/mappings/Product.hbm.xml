@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SweetFly.Model.Entities.Product, SweetFly.Model" table="Product">
+    <id name="Id" type="Int32" unsaved-value="0">
+      <column name="Id" sql-type="bigint" not-null="true" unique="true"/>
+      <generator class="native" />
+    </id>
+    <property name="Name" />
+    <property name="Description" />
+    <property name="CreateTime" />
+    <property name="DelFlag" />
+  </class>
+</hibernate-mapping>

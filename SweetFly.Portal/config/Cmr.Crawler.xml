@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0"?>
+<CmrConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Subjects>
+    <Subject Id="1" Enabled="false" Name="毛泽东思想和中国特色社会主义理论体系概论">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="1" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520001]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="2" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520002]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="3" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520003]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="4" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520004]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="5" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520005]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="6" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520006]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="7" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520007]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="8" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk001b&CID=02520008]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="2" Enabled="false" Name="物流管理">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="9" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130001]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="10" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130002]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="11" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130003]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="12" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130004]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="13" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130005]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="14" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130006]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="15" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130007]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="16" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130008]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="17" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130009]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="18" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130010]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="19" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130011]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="20" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130012]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="21" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130013]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="22" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130014]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="23" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130016]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="24" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130015]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="25" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130017]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="26" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk045a&CID=00130018]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="3" Enabled="false" Name="财务会计学（第三版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="27" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180001]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="28" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180002]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="29" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180003]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="30" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180004]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="31" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180005]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="32" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180006]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="33" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180007]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="34" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180008]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="35" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180009]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="36" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180010]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="37" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180011]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="38" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180012]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="39" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180013]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="40" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180014]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="41" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180015]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="42" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk019c&CID=02180016]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="4" Enabled="false" Name="人力资源开发与管理">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="43" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530016]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="44" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530001]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="45" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530002]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="46" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530003]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="47" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530004]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="48" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530005]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="49" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530006]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="50" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530007]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="51" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530008]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="52" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530009]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="53" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530010]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="54" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530011]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="55" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530012]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="56" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530013]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="57" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530014]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="58" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri><![CDATA[http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk038a&CID=00530015]]></Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="5" Enabled="false" Name="实用心理学">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="59" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="60" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="61" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="62" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="63" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="64" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="65" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="66" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="67" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="68" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk034a&amp;CID=00170010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="6" Enabled="false" Name="销售管理">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="69" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="70" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="71" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="72" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="73" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="74" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="75" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="76" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="77" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="78" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk044a&amp;CID=02370010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="7" Enabled="false" Name="大学英语（三）（第三版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="79" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="80" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="81" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="82" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="83" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="84" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="85" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk052c&amp;CID=02420007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="8" Enabled="false" Name="计算机应用基础（第二版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="86" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="87" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="88" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="89" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="90" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="91" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="92" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="93" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="94" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk103b&amp;CID=04110009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="9" Enabled="false" Name="金融法（第二版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="95" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="96" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="97" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="98" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="99" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="100" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="101" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="102" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="103" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="104" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="105" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330011</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="106" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330012</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="107" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330013</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="108" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330014</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="109" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk058b&amp;CID=02330015</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="10" Enabled="false" Name="财务管理学（第二版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="110" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="111" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="112" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="113" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="114" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="115" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="116" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="117" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="118" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk013b&amp;CID=00590009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="11" Enabled="false" Name="电子商务">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="119" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500012</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="120" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="121" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="122" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="123" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="124" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="125" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="126" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="127" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="128" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="129" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="130" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=BK035A&amp;CID=00500011</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="12" Enabled="true" Name="广告学概论">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="131" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="132" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="133" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="134" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="135" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="136" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="137" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="138" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="139" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="140" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="141" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740011</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="142" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=bk021b&amp;CID=02740012</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="13" Enabled="true" Name="逻辑学（第一版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="143" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="144" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="145" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="146" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="147" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="148" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="149" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="150" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="151" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="152" Handler="SweetFly.Job.Handler.OldHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/subject/stupage/InstantRnd.asp?CID=00480010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="14" Enabled="true" Name="国际贸易理论（第二版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="153" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="154" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="155" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="156" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="157" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="158" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="159" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="160" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="161" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="162" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk028b&amp;CID=00050011</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+    <Subject Id="15" Enabled="true" Name="国际贸易实务（第二版）">
+      <LoginInfo>
+        <Authorization>Basic am9objEyMzk1Mjpqb2huMTIz</Authorization>
+      </LoginInfo>
+      <SubjectModules>
+        <SubjectModule Id="163" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620001</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="164" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620002</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="165" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620003</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="166" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620004</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="167" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620005</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="168" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620006</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="169" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620007</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="170" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620008</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="171" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620009</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="172" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620010</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="173" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620011</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="174" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620012</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="175" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620013</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="176" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620014</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="177" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620015</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+        <SubjectModule Id="178" Handler="SweetFly.Job.Handler.NormalHandler,SweetFly.Job">
+          <HtmlDataSource Encoding="GB2312">
+            <Uri>http://learning.cmr.com.cn/student/acourse/HomeworkCenter/InstantRnd.asp?CourseID=zk029b&amp;CID=01620016</Uri>
+          </HtmlDataSource>
+        </SubjectModule>
+      </SubjectModules>
+    </Subject>
+
+  </Subjects>
+</CmrConfig>
